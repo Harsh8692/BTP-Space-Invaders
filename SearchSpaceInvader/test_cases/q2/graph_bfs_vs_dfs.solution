@@ -1,0 +1,3 @@
+# This is the solution file for test_cases/q2/graph_bfs_vs_dfs.test.
+solution: "2:A->D 0:D->G"
+expanded_states: "A D"

@@ -1,0 +1,3 @@
+class: "Q6PartialCreditQuestion"
+maxScore: "3"
+depends: "q4"

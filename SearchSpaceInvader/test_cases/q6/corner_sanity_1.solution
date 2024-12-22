@@ -1,0 +1,9 @@
+# In order for a heuristic to be admissible, the value
+# of the heuristic must be less at each state than the
+# true cost of the optimal path from that state to a goal.
+cost: "32"
+path: """
+Left Left Left Left Left Left Left Left Left Left Fire Right Right
+Right Right Right Right Right Right Right Right Right Right Right
+Right Right Right Right Right Right Right Right Right Fire
+"""

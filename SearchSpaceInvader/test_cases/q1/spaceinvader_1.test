@@ -1,0 +1,28 @@
+# This is a basic depth first search test
+class: "SpaceShipSearchTest"
+algorithm: "depthFirstSearch"
+
+# The following specifies the layout to be used 
+layoutName: "layout1.lay"
+layout: """
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%F                      %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%             S         %
+%                       %
+%                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+

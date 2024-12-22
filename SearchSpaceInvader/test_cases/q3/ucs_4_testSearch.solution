@@ -1,0 +1,8 @@
+# This is the solution file for test_cases/q3/ucs_4_testSearch.test.
+# Number of nodes expanded must be with a factor of 2.0 of the numbers below.
+solution: """
+Left Left Left Left Left Fire Right Right Right Fire Right Right Right
+Fire Right Right Right Fire Right Right Right Fire Right Right Right
+Right Right Right Right Right Right Right Fire
+"""
+expanded_nodes: "959"

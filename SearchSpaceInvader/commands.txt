@@ -1,0 +1,45 @@
+Question 1 Finding Fixed Asteroid using DFS
+python spaceship.py -l tinyMaze -s SearchAgent -a fn=tinyMazeSearch
+
+python spaceship.py -l layout1 -s SearchAgent
+python spaceship.py -l layout2 -s SearchAgent
+python spaceship.py -l layout3 -s SearchAgent
+python autograder.py -q q1
+
+Question 2 Breadth First Search 
+
+python spaceship.py -l layout1 -s SearchAgent -a fn=bfs
+python spaceship.py -l layout2 -s SearchAgent -a fn=bfs
+python spaceship.py -l layout3 -s SearchAgent -a fn=bfs
+python autograder.py -q q2
+
+
+Question 3 Varying the Cost Function
+python spaceship.py -l layout1 -s SearchAgent -a fn=ucs
+python spaceship.py -l layout3 -s StayRightSearchAgent
+python spaceship.py -l layout4 -s StayLeftSearchAgent
+python autograder.py -q q3
+
+Question 4 A* Search
+python spaceship.py -l layout3 -s SearchAgent -a fn=astar,heuristic=semimanhattanHeuristic
+python autograder.py -q q4
+
+Question 5 Finding All the Corners 
+python spaceship.py -l layout5 -s SearchAgent -a fn=bfs,prob=CornersProblem
+python autograder.py -q q5
+
+Question 6 Corners Problem: Heuristic
+python spaceship.py -l layout5 -s AStarCornersAgent
+python autograder.py -q q6
+
+Question 7 Eating all the dots
+python spaceship.py -l layout1 -s AStarAsteroidSearchAgent
+python spaceship.py -l layout7 -s AStarAsteroidSearchAgent
+python autograder.py -q q7
+
+Question 8 Suboptimal Search
+python spaceship.py -l layout8 -s ClosestDotSearchAgent
+python autograder.py -q q8
+
+OR we can run autograder for all questions at once using:
+python autograder.py 

@@ -1,0 +1,14 @@
+class: "HeuristicTest"
+
+heuristic: "asteroidHeuristic"
+searchProblemClass: "AsteroidSearchProblem"
+layoutName: "Test 13"
+layout: """
+%%%%%%%%
+% F   F%
+%      %
+%S     %
+%      %
+%%%%%%%%
+"""
+

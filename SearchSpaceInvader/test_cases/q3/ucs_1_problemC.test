@@ -1,0 +1,29 @@
+class: "SpaceShipSearchTest"
+algorithm: "uniformCostSearch"
+points: "0.5"
+
+# The following specifies the layout to be used 
+layoutName: "layout1.lay"
+layout: """
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%F                      %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%             S         %
+%                       %
+%                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+leewayFactor: "1.1"
+#costFn: "lambda pos: 1"

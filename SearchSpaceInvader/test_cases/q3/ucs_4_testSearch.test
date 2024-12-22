@@ -1,0 +1,30 @@
+class: "SpaceShipSearchTest"
+algorithm: "uniformCostSearch"
+points: "0.5"
+
+# The following specifies the layout to be used 
+layoutName: "testSearch"
+layout: """
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%F  F  F  F  F         F%
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%     S                 %
+%                       %
+%                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+searchProblemClass: "AsteroidSearchProblem"
+leewayFactor: "2"
+

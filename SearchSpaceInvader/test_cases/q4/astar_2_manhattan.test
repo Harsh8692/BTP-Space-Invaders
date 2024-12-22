@@ -1,0 +1,28 @@
+class: "SpaceShipSearchTest"
+algorithm: "aStarSearch"
+
+# The following specifies the layout to be used 
+layoutName: "layout1.lay"
+layout: """
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%F                      %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%             S         %
+%                       %
+%                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+leewayFactor: "1.1"
+heuristic: "semimanhattanHeuristic"

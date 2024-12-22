@@ -1,0 +1,6 @@
+# This is the solution file for test_cases/q2/spaceinvader_1.test.
+# Number of nodes expanded must be with a factor of 1.0 of the numbers below.
+solution: """
+Left Left Left Left Left Left Left Left Left Left Left Left Left Fire
+"""
+expanded_nodes: "296"

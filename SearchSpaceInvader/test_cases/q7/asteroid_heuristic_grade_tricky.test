@@ -1,0 +1,21 @@
+class: "HeuristicGrade"
+
+heuristic: "asteroidHeuristic"
+searchProblemClass: "AsteroidSearchProblem"
+layoutName: "trickySearch"
+layout: """
+%%%%%%%%%%%%%%%%%%%%
+%F           FF    %
+%F  F  F  F  FF    %
+%                  %
+%                  %
+%                  %
+%                  %
+%        S         %
+%%%%%%%%%%%%%%%%%%%%
+"""
+# One point always, an extra point for each
+# threshold passed.
+basePoints: "1"
+gradingThresholds: "3000 2800 2600 2400"
+

@@ -1,0 +1,31 @@
+Que1
+python spaceship.py -s ReflexAgent -l testClassic
+python spaceship.py -s ReflexAgent -l testClassic2
+python spaceship.py -s ReflexAgent -l testClassic3
+python autograder.py -q q1
+
+Que2
+
+python spaceship.py -s MinimaxAgent -a depth=2 -l layout9
+python spaceship.py -s MinimaxAgent -a depth=2 -l layout10  // its quite slow since it has two enemies
+python autograder.py -q q2
+
+Que3
+
+python spaceship.py -s AlphaBetaAgent -a depth=2 -l layout9
+python spaceship.py -s AlphaBetaAgent -a depth=3 -l smallLayout
+python autograder.py -q q3
+
+Que4
+python spaceship.py -s ExpectimaxAgent -a depth=2 -l layout9 
+python spaceship.py -s ExpectimaxAgent -a depth=3 -l smallLayout
+python autograder.py -q q4
+
+Que5
+python spaceship.py -s MinimaxAgent -a depth=2,evalFn=better -l layout9
+python spaceship.py -s AlphaBetaAgent -a depth=2,evalFn=better -l layout9
+python spaceship.py -s ExpectimaxAgent -a depth=2,evalFn=better -l layout9
+python autograder.py -q q5
+
+OR we can run autograder for all questions at once using:
+python autograder.py 

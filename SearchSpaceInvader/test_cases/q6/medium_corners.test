@@ -1,0 +1,25 @@
+class: "CornerHeuristicSpaceShip"
+points: "1"
+
+# The following specifies the layout to be used 
+layout: """
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%F                     F%
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%       S               %
+%                       %
+%                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+"""

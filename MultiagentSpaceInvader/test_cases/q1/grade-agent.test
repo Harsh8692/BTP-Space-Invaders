@@ -1,0 +1,18 @@
+class: "EvalAgentTest"
+
+agentName: "ReflexAgent"
+layoutName: "openClassic"
+maxTime: "120"
+numGames: "10"
+
+
+nonTimeoutMinimum: "10"
+
+scoreThresholds: "1000 1400"
+
+winsMinimum: "1"
+winsThresholds: "5 10"
+
+
+randomSeed: "0"
+enemies: "[RandomAgent(1)]"

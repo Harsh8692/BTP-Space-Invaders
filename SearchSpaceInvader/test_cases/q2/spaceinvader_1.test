@@ -1,0 +1,28 @@
+# This is a basic breadth first search test
+class: "SpaceShipSearchTest"
+algorithm: "breadthFirstSearch"
+
+# The following specifies the layout to be used 
+layoutName: "layout1.lay"
+layout: """
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%F                      %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%                       %
+%             S         %
+%                       %
+%                       %
+%%%%%%%%%%%%%%%%%%%%%%%%%
+"""
+
