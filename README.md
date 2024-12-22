@@ -8,6 +8,7 @@ This repository contains the problem statements, starter code, and test cases fo
 
 ```plaintext
 /
+├── gifs /                     # Some gifs of gameplay
 ├── SearchSpaceInvader/        # Challenges on search algorithms
 └── MultiagentSpaceInvader/    # Challenges on multi-agent decision-making
 ```
